@@ -1,0 +1,10 @@
+The data to be worked with includes three tables that store information about student registration dates, engagement dates, and subscription purchase dates.
+
+In addition, consider the following information about the column values while working with the data:
+
+1. student_id – (int) the unique identification of a student
+2. date_registered – (date) the date on which the student registered on the 365 platform
+3. first_date_watched – (date) the date of the first engagement
+4. first_date_purchased – (date) the date of first-time purchase (NULL if they have no purchases)
+5. date_diff_reg_watch – (int) the difference in days between the registration date and the date of first-time engagement
+6. date_diff_watch_purch – (int) the difference in days between the date of first-time engagement and the date of first-time purchase (NULL if they have no purchases)
